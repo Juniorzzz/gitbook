@@ -11,5 +11,11 @@
     https: false
 ```
 
+修改保存之后需要重启gitlab， 执行命令
+
+```text
+gitlab-ctl restart
+```
+
 执行gitlab-ctl reconfigure命令， 此文件会被重置，需要重新配置
 
