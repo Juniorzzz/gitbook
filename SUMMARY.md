@@ -1,7 +1,10 @@
 # Table of contents
 
 * [Introduction](README.md)
-* [Git](git.md)
+* [Git](git/README.md)
+  * [Git](git/git.md)
+  * [Gitlab](git/gitlab.md)
+  * [SourceTree](git/sourcetree.md)
 * [Linux](linux/README.md)
   * [Shell](linux/shell.md)
 * [Front-End](front-end/README.md)
