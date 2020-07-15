@@ -43,3 +43,11 @@ gitlab-ctl reconfigure
 gitlab-ctl restart
 ```
 
+配置数值参考官方文档
+
+> [https://docs.gitlab.com/ee/install/requirements.html](https://docs.gitlab.com/ee/install/requirements.html)
+
+![](../../.gitbook/assets/image%20%283%29.png)
+
+![](../../.gitbook/assets/pi-zhu-20200715-095909.png)
+
