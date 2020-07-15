@@ -4,6 +4,7 @@
 * [Git](git/README.md)
   * [Git](git/git.md)
   * [Gitlab](git/gitlab/README.md)
+    * [修改Clone 地址默认localhost](git/gitlab/xiu-gai-clone-di-zhi-mo-ren-localhost.md)
     * [内存占用过大](git/gitlab/nei-cun-zhan-yong-guo-da.md)
     * [Install](git/gitlab/install.md)
   * [SourceTree](git/sourcetree.md)
