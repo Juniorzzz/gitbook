@@ -1,4 +1,10 @@
+---
+description: 重置
+---
+
 # Reset
+
+![](../../.gitbook/assets/pi-zhu-20200730-094442.png)
 
 git reset的作用是修改HEAD的位置，即将HEAD指向的位置改变为之前存在的某个版本
 

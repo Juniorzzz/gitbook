@@ -1,4 +1,10 @@
+---
+description: 回滚
+---
+
 # Revert
+
+![](../../.gitbook/assets/pi-zhu-20200730-094501.png)
 
 git revert是用于“反做”某一个版本，以达到撤销该版本的修改的目的
 
