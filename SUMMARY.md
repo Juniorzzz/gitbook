@@ -21,6 +21,8 @@
     * [Release](git/gitflow/release.md)
     * [Hotfix](git/gitflow/hotfix.md)
   * [SourceTree](git/sourcetree/README.md)
+    * [Reset](git/sourcetree/reset-1.md)
+    * [Revert](git/sourcetree/revert.md)
     * [Tag](git/sourcetree/tag.md)
     * [Ignore](git/sourcetree/ignore.md)
     * [Clone](git/sourcetree/clone.md)
