@@ -32,9 +32,9 @@
 
  表达层（Presentation Layer）把数据转换为能与接收者的系统格式兼容并适合传输的格式。
 
-![](../.gitbook/assets/1%20%282%29.jpg)
-
 **第7层 应用层**
 
 应用层（Application Layer）提供为应用软件而设的接口，以设置与另一应用软件之间的通信。例如: HTTP，HTTPS，FTP，TELNET，SSH，SMTP，POP3.HTML.等。
+
+![](../.gitbook/assets/1%20%281%29.jpg)
 
