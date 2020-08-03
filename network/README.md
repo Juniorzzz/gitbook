@@ -32,7 +32,7 @@
 
  表达层（Presentation Layer）把数据转换为能与接收者的系统格式兼容并适合传输的格式。
 
-![](../.gitbook/assets/1%20%281%29.jpg)
+![](../.gitbook/assets/1%20%282%29.jpg)
 
 **第7层 应用层**
 
