@@ -42,6 +42,7 @@
   * [Shell](linux/shell.md)
 * [Front-End](front-end/README.md)
   * [Android](front-end/android/README.md)
+    * [Android 后台运行白名单，优雅实现保活](front-end/android/android-hou-tai-yun-hang-bai-ming-dan-you-ya-shi-xian-bao-huo.md)
     * [创建不显示的Activity](front-end/android/chuang-jian-bu-xian-shi-de-activity.md)
   * [Unity](front-end/unity/README.md)
     * [Pack](front-end/unity/pack.md)
