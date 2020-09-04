@@ -39,7 +39,7 @@ public void requestIgnoreBatteryOptimizations() {
 
 申请时，应用上会出现这样一个窗口：
 
-![](../../.gitbook/assets/16f1c2cf6d02d1b9.jpg)
+![](../../../.gitbook/assets/16f1c2cf6d02d1b9.jpg)
 
 ## 厂商后台管理
 
