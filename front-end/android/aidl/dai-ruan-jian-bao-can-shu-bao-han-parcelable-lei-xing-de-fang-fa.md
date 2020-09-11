@@ -17,6 +17,20 @@ interface IRectInsideBundle {
 
 如下方实现所示，在读取 `Rect` 之前，`ClassLoader` 已在 `Bundle` 中完成显式设置
 
+{% tabs %}
+{% tab title="KOTLIN" %}
+```text
+private val binder = object : IRectInsideBundle.Stub() {
+    override fun saveRect(bundle: Bundle) {
+      bundle.classLoader = classLoader
+      val rect = bundle.getParcelable<Rect>("rect")
+      process(rect) // Do more with the parcelable
+    }
+}
+```
+{% endtab %}
+
+{% tab title="JAVA" %}
 ```text
 private final IRectInsideBundle.Stub binder = new IRectInsideBundle.Stub() {
     public void saveRect(Bundle bundle){
@@ -26,4 +40,6 @@ private final IRectInsideBundle.Stub binder = new IRectInsideBundle.Stub() {
     }
 };
 ```
+{% endtab %}
+{% endtabs %}
 
