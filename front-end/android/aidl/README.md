@@ -8,7 +8,7 @@ description: '转自 https://developer.android.com/guide/components/aidl?hl=zh-c
 
 Android 接口定义语言 \(AIDL\) 与您可能使用过的其他接口语言 \(IDL\) 类似。您可以利用它定义客户端与服务均认可的编程接口，以便二者使用进程间通信 \(IPC\) 进行相互通信。在 Android 中，一个进程通常无法访问另一个进程的内存。因此，为进行通信，进程需将其对象分解成可供操作系统理解的原语，并将其编组为可供您操作的对象。编写执行该编组操作的代码较为繁琐，因此 Android 会使用 AIDL 为您处理此问题。
 
-> 只有在需要不同应用的客户端通过 IPC 方式访问服务，并且希望在服务中进行多线程处理时，您才有必要使用 AIDL。如果您无需跨不同应用执行并发 IPC，则应通过[实现 Binder](https://developer.android.com/guide/components/bound-services?hl=zh-cn#Binder) 来创建接口；或者，如果您想执行 IPC，但_不_需要处理多线程，请[使用 Messenger ](https://developer.android.com/guide/components/bound-services?hl=zh-cn#Messenger)来实现接口。无论如何，在实现 AIDL 之前，请您务必理解[绑定服务](https://developer.android.com/guide/components/bound-services?hl=zh-cn)。
+> **注意：**只有在需要不同应用的客户端通过 IPC 方式访问服务，并且希望在服务中进行多线程处理时，您才有必要使用 AIDL。如果您无需跨不同应用执行并发 IPC，则应通过[实现 Binder](https://developer.android.com/guide/components/bound-services?hl=zh-cn#Binder) 来创建接口；或者，如果您想执行 IPC，但_不_需要处理多线程，请[使用 Messenger ](https://developer.android.com/guide/components/bound-services?hl=zh-cn#Messenger)来实现接口。无论如何，在实现 AIDL 之前，请您务必理解[绑定服务](https://developer.android.com/guide/components/bound-services?hl=zh-cn)。
 
 在开始设计 AIDL 接口之前，请注意，AIDL 接口的调用是直接函数调用。您无需对发生调用的线程做任何假设。实际情况的差异取决于调用是来自本地进程中的线程，还是远程进程中的线程。具体而言：
 
