@@ -25,54 +25,6 @@ parcelable Rect;
 
  以下示例展示 [`Rect`](https://developer.android.com/reference/android/graphics/Rect?hl=zh-cn) 类如何实现 [`Parcelable`](https://developer.android.com/reference/android/os/Parcelable?hl=zh-cn) 协议。
 
-{% tabs %}
-{% tab title="KOTLIN" %}
-```text
-import android.os.Parcel
-import android.os.Parcelable
-
-class Rect() : Parcelable {
-    var left: Int = 0
-    var top: Int = 0
-    var right: Int = 0
-    var bottom: Int = 0
-
-    companion object CREATOR : Parcelable.Creator<Rect> {
-        override fun createFromParcel(parcel: Parcel): Rect {
-            return Rect(parcel)
-        }
-
-        override fun newArray(size: Int): Array<Rect> {
-            return Array(size) { Rect() }
-        }
-    }
-
-    private constructor(inParcel: Parcel) : this() {
-        readFromParcel(inParcel)
-    }
-
-    override fun writeToParcel(outParcel: Parcel, flags: Int) {
-        outParcel.writeInt(left)
-        outParcel.writeInt(top)
-        outParcel.writeInt(right)
-        outParcel.writeInt(bottom)
-    }
-
-    private fun readFromParcel(inParcel: Parcel) {
-        left = inParcel.readInt()
-        top = inParcel.readInt()
-        right = inParcel.readInt()
-        bottom = inParcel.readInt()
-    }
-
-    override fun describeContents(): Int {
-        return 0
-    }
-}
-```
-{% endtab %}
-
-{% tab title="JAVA" %}
 ```text
 import android.os.Parcel;
 import android.os.Parcelable;
@@ -119,10 +71,6 @@ public final class Rect implements Parcelable {
     }
 }
 ```
-{% endtab %}
-{% endtabs %}
 
-{% hint style="info" %}
- **警告：**请勿忘记从其他进程中接收数据的安全问题。在本例中，`Rect` 从 `Parcel` 读取四个数字，但您需确保：无论调用方目的为何，这些数字均在可接受的值范围内。如需详细了解如何防止应用受到恶意软件侵害、保证应用安全，请参阅[安全与权限](https://developer.android.com/guide/topics/security/security?hl=zh-cn)。
-{% endhint %}
+> **警告：**请勿忘记从其他进程中接收数据的安全问题。在本例中，`Rect` 从 `Parcel` 读取四个数字，但您需确保：无论调用方目的为何，这些数字均在可接受的值范围内。如需详细了解如何防止应用受到恶意软件侵害、保证应用安全，请参阅[安全与权限](https://developer.android.com/guide/topics/security/security?hl=zh-cn)。
 
