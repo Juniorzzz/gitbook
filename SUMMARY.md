@@ -75,6 +75,7 @@
   * [Golang](back-end/golang/README.md)
     * [Mqant](back-end/golang/mqant.md)
     * [Gin](back-end/golang/gin.md)
+    * [Lib](back-end/golang/lib.md)
   * [Docker](back-end/docker.md)
 * [Database](database/README.md)
   * [MongoDB](database/mongodb.md)
