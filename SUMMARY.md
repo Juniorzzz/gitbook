@@ -4,6 +4,7 @@
 * [Git](git/README.md)
   * [GUI Software](git/gui-software.md)
   * [Git](git/git/README.md)
+    * [SSH](git/git/ssh.md)
     * [简介](git/git/jian-jie.md)
     * [Git使用 -- 常用命令](git/git/git-shi-yong-chang-yong-ming-ling.md)
     * [结构](git/git/jie-gou.md)
