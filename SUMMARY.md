@@ -43,6 +43,8 @@
   * [Shell](linux/shell.md)
 * [Front-End](front-end/README.md)
   * [Android](front-end/android/README.md)
+    * [Error](front-end/android/error/README.md)
+      * [Gradle sync failed: Failed to open zip file.					Gradle's dependency cache may be corrupt \(this som](front-end/android/error/gradle-sync-failed-failed-to-open-zip-file.-gradles-dependency-cache-may-be-corrupt-this-som.md)
     * [Service](front-end/android/service.md)
     * [AIDL](front-end/android/aidl/README.md)
       * [定义 AIDL 接口](front-end/android/aidl/ding-yi-aidl-jie-kou/README.md)
