@@ -23,7 +23,7 @@ package android.graphics;
 parcelable Rect;
 ```
 
- 以下示例展示 [`Rect`](https://developer.android.com/reference/android/graphics/Rect?hl=zh-cn) 类如何实现 [`Parcelable`](https://developer.android.com/reference/android/os/Parcelable?hl=zh-cn) 协议。
+以下示例展示 [`Rect`](https://developer.android.com/reference/android/graphics/Rect?hl=zh-cn) 类如何实现 [`Parcelable`](https://developer.android.com/reference/android/os/Parcelable?hl=zh-cn) 协议。
 
 {% tabs %}
 {% tab title="KOTLIN" %}
@@ -123,6 +123,6 @@ public final class Rect implements Parcelable {
 {% endtabs %}
 
 {% hint style="info" %}
- **警告：**请勿忘记从其他进程中接收数据的安全问题。在本例中，`Rect` 从 `Parcel` 读取四个数字，但您需确保：无论调用方目的为何，这些数字均在可接受的值范围内。如需详细了解如何防止应用受到恶意软件侵害、保证应用安全，请参阅[安全与权限](https://developer.android.com/guide/topics/security/security?hl=zh-cn)。
+**警告：**请勿忘记从其他进程中接收数据的安全问题。在本例中，`Rect` 从 `Parcel` 读取四个数字，但您需确保：无论调用方目的为何，这些数字均在可接受的值范围内。如需详细了解如何防止应用受到恶意软件侵害、保证应用安全，请参阅[安全与权限](https://developer.android.com/guide/topics/security/security?hl=zh-cn)。
 {% endhint %}
 
