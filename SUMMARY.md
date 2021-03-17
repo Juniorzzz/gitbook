@@ -44,6 +44,7 @@
 * [Front-End](front-end/README.md)
   * [Android](front-end/android/README.md)
     * [Error](front-end/android/error/README.md)
+      * [Android 8 and above require HTTPS by default, change to HTTPS or enable ClearText in the AndroidMani](front-end/android/error/android-8-and-above-require-https-by-default-change-to-https-or-enable-cleartext-in-the-androidmani.md)
       * [Gradle sync failed: Failed to open zip file.					Gradle's dependency cache may be corrupt \(this som](front-end/android/error/gradle-sync-failed-failed-to-open-zip-file.-gradles-dependency-cache-may-be-corrupt-this-som.md)
     * [Service](front-end/android/service.md)
     * [AIDL](front-end/android/aidl/README.md)
