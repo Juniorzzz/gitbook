@@ -93,6 +93,7 @@
     * [Lib](back-end/golang/lib.md)
   * [Docker](back-end/docker/README.md)
     * [Common commands](back-end/docker/common-commands/README.md)
+      * [update](back-end/docker/common-commands/update.md)
       * [exec](back-end/docker/common-commands/exec.md)
       * [cp](back-end/docker/common-commands/cp.md)
       * [stats](back-end/docker/common-commands/stats.md)

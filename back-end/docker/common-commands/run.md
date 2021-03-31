@@ -20,6 +20,10 @@ Usage: docker run \[OPTIONS\] IMAGE \[COMMAND\] \[ARG...\]
 >
 > -p, --publish list Publish a container's port\(s\) to the host
 >
+> --restart Restart policy to apply when a container exits \(default "no"\) \(e.g -restart=always\)
+
+> --rm Automatically remove the container when it exits
+>
 > -t, --tty Allocate a pseudo-TTY
 
 > -v, --volume list Bind mount a volume 
