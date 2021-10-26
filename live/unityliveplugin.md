@@ -2,7 +2,7 @@
 
 受 [https://www.gero.pub/2017/10/26/how-to-use-ijkplayer-in-unity/](https://www.gero.pub/2017/10/26/how-to-use-ijkplayer-in-unity/) 启发， 搜索了好久没有发现 [PLDroidMediaStreaming](https://github.com/pili-engineering/PLDroidMediaStreaming) 的移植版本， 所以自己移植了一版， 目前测试正常，待后续测试
 
-```text
+```
 //
 // Source code recreated from a .class file by IntelliJ IDEA
 // (powered by Fernflower decompiler)
@@ -535,4 +535,3 @@ public class EasyMovieTexture implements OnFrameAvailableListener {
 }
 
 ```
-

@@ -4,7 +4,7 @@
 
 如果您有 `.aidl` 文件：
 
-```text
+```
 // IRectInsideBundle.aidl
 package com.example.android;
 
@@ -19,7 +19,7 @@ interface IRectInsideBundle {
 
 {% tabs %}
 {% tab title="KOTLIN" %}
-```text
+```
 private val binder = object : IRectInsideBundle.Stub() {
     override fun saveRect(bundle: Bundle) {
       bundle.classLoader = classLoader
@@ -31,7 +31,7 @@ private val binder = object : IRectInsideBundle.Stub() {
 {% endtab %}
 
 {% tab title="JAVA" %}
-```text
+```
 private final IRectInsideBundle.Stub binder = new IRectInsideBundle.Stub() {
     public void saveRect(Bundle bundle){
         bundle.setClassLoader(getClass().getClassLoader());
@@ -42,4 +42,3 @@ private final IRectInsideBundle.Stub binder = new IRectInsideBundle.Stub() {
 ```
 {% endtab %}
 {% endtabs %}
-

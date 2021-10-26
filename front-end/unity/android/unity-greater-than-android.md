@@ -1,2 +1,2 @@
-# Unity -&gt; Android
+# Unity -> Android
 

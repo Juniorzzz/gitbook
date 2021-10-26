@@ -19,7 +19,7 @@
 
 {% tabs %}
 {% tab title="KOTLIN" %}
-```text
+```
 private const val BUMP_MSG = 1
 
 class Binding : Activity() {
@@ -223,7 +223,7 @@ class Binding : Activity() {
 {% endtab %}
 
 {% tab title="JAVA" %}
-```text
+```
 public static class Binding extends Activity {
     /** The primary interface we will be calling on the service. */
     IRemoteService mService = null;
@@ -440,4 +440,3 @@ public static class Binding extends Activity {
 ```
 {% endtab %}
 {% endtabs %}
-

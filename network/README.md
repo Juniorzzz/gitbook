@@ -1,10 +1,10 @@
 # Network
 
-#### 
+####
 
-![](../.gitbook/assets/m625htp.jpg)
+![](../.gitbook/assets/m625hTp.jpg)
 
-#### OSI七层网络模型\(从下往上\)：
+#### OSI七层网络模型(从下往上)：
 
 **第1层 物理层**
 
@@ -18,7 +18,7 @@
 
 **第3层 网络层**
 
- 网络层（Network Layer）决定数据的路径选择和转寄，将网络表头（NH）加至数据包，以形成分组。网络表头包含了网络数据。例如:互联网协议（IP）等。
+&#x20;网络层（Network Layer）决定数据的路径选择和转寄，将网络表头（NH）加至数据包，以形成分组。网络表头包含了网络数据。例如:互联网协议（IP）等。
 
 **第4层 传输层**
 
@@ -30,11 +30,10 @@
 
 **第6层 表达层**
 
- 表达层（Presentation Layer）把数据转换为能与接收者的系统格式兼容并适合传输的格式。
+&#x20;表达层（Presentation Layer）把数据转换为能与接收者的系统格式兼容并适合传输的格式。
 
 **第7层 应用层**
 
 应用层（Application Layer）提供为应用软件而设的接口，以设置与另一应用软件之间的通信。例如: HTTP，HTTPS，FTP，TELNET，SSH，SMTP，POP3.HTML.等。
 
-![](../.gitbook/assets/1%20%281%29.jpg)
-
+![](<../.gitbook/assets/1 (2).jpg>)

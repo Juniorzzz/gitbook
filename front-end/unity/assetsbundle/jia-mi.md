@@ -2,7 +2,7 @@
 
 ## Build AssetBundle
 
-```text
+```
  [MenuItem("Tools/BuildAB")]
 static void BuildAB() 
 {
@@ -25,7 +25,7 @@ static void BuildAB()
 
 ### Override FilesStream
 
-```text
+```
 using System.IO;
  
 public class MyStream : FileStream
@@ -60,7 +60,7 @@ public class MyStream : FileStream
 
 ### Load AssetBundle
 
-```text
+```
 using System.IO;
 using UnityEngine;
 using UnityEngine.UI;
@@ -109,4 +109,3 @@ public class TestStream : MonoBehaviour
 ```
 
 reference  [https://www.xuanyusong.com/archives/4607](https://www.xuanyusong.com/archives/4607)
-

@@ -4,41 +4,42 @@ description: Run a command in a new container
 
 # run
 
-Usage: docker run \[OPTIONS\] IMAGE \[COMMAND\] \[ARG...\]
+Usage: docker run \[OPTIONS] IMAGE \[COMMAND] \[ARG...]
 
-> --add-host list Add a custom host-to-IP mapping\(host:ip\)
+> \--add-host list Add a custom host-to-IP mapping(host:ip)
 >
-> -c, --cpu-shares int CPU shares \(relative weight\)
+> \-c, --cpu-shares int CPU shares (relative weight)
 >
-> -d, --detach Run container in background and print container ID
+> \-d, --detach Run container in background and print container ID
 >
-> -i, --interactive Keep STDIN open even if not attached
+> \-i, --interactive Keep STDIN open even if not attached
 >
-> -m, --memory bytes Memory limit
+> \-m, --memory bytes Memory limit
 >
-> --name string Assign a name to the container
+> \--name string Assign a name to the container
 >
-> -p, --publish list Publish a container's port\(s\) to the host
+> \-p, --publish list Publish a container's port(s) to the host
 >
-> --restart Restart policy to apply when a container exits \(default "no"\) \(e.g -restart=always\)
+> \--restart Restart policy to apply when a container exits (default "no") (e.g -restart=always)
 
-> --rm Automatically remove the container when it exits
+> \--rm Automatically remove the container when it exits
 >
-> -t, --tty Allocate a pseudo-TTY
+> \-t, --tty Allocate a pseudo-TTY&#x20;
 
-> -v, --volume list Bind mount a volume 
+> \-v, --volume list Bind mount a volume&#x20;
 >
-> --volume-driver string Optional volume driver for the container 
+> \--volume-driver string Optional volume driver for the container&#x20;
 >
-> --volumes-from list Mount volumes from the specified container\(s\)
+> \--volumes-from list Mount volumes from the specified container(s)
 >
-> -w, --workdir string Working directory inside the container
+> \-w, --workdir string Working directory inside the container
+>
+>
 
-```text
+```
 docker run -t -i ubuntu:15.10 /bin/bash
 ```
 
-> -t Allocate a pseudo-TTy
+> \-t Allocate a pseudo-TTy
 >
-> -i Keep STDIN open even if not attached
-
+> \-i Keep STDIN open even if not attached

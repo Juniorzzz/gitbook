@@ -2,7 +2,7 @@
 
 ### 安装 gh-pages
 
-```text
+```
 npm install --save gh-pages
 或者
 yarn add gh-pages
@@ -10,7 +10,7 @@ yarn add gh-pages
 
 ### 修改package.json 文件
 
-```text
+```
   "homepage": "https://xxx.github.io/xxx/",
   "scripts": {
     "start": "react-scripts start",
@@ -34,9 +34,8 @@ yarn add gh-pages
 
 ### 发布编译
 
-```text
+```
 npm run deploy 
 或者
 yarn run deploy
 ```
-

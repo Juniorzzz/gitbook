@@ -1,4 +1,3 @@
 # SSH-KEY
 
-![](../../.gitbook/assets/pi-zhu-20200724-083731.png)
-
+![](<../../.gitbook/assets/批注 2020-07-24 083731.png>)

@@ -1,10 +1,9 @@
 # SDK Tools version 0.0.0 ＜ 26.1.1
 
-修改 \[SDKDir\]/tools/package.xml 
+修改 \[SDKDir]/tools/package.xml&#x20;
 
-```text
+```
 obsolete="true"
 =>
 obsolete="false"
 ```
-

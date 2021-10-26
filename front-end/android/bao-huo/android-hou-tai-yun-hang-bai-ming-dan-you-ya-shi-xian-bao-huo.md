@@ -4,13 +4,13 @@
 
 首先，在 AndroidManifest.xml 文件中配置一下权限：
 
-```text
+```
 <uses-permission android:name="android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS" />
 ```
 
 可以通过以下方法，判断我们的应用是否在白名单中：
 
-```text
+```
 @RequiresApi(api = Build.VERSION_CODES.M)
 private boolean isIgnoringBatteryOptimizations() {
     boolean isIgnoring = false;
@@ -24,7 +24,7 @@ private boolean isIgnoringBatteryOptimizations() {
 
 如果不在白名单中，可以通过以下代码申请加入白名单：
 
-```text
+```
 @RequiresApi(api = Build.VERSION_CODES.M)
 public void requestIgnoreBatteryOptimizations() {
     try {
@@ -49,10 +49,10 @@ Android 开发的一个难点在于，各大手机厂商对原生系统进行了
 
 最理想的做法是，我们根据不同手机，甚至是不同的系统版本，给用户呈现一个图文操作步骤，并且提供一个按钮，直接跳转到指定页面进行设置。但需要对每个厂商每个版本进行适配，工作量是比较大的。我使用真机测试了大部分主流 Android 厂商的手机后，整理出了部分手机的相关资料。
 
-首先我们可以定义这样两个方法：  
+首先我们可以定义这样两个方法：\
 
 
-```text
+```
 /**
  * 跳转到指定应用的首页
  */
@@ -78,7 +78,7 @@ private void showActivity(@NonNull String packageName, @NonNull String activityD
 
 厂商判断：
 
-```text
+```
 public boolean isHuawei() {
     if (Build.BRAND == null) {
         return false;
@@ -90,7 +90,7 @@ public boolean isHuawei() {
 
 跳转华为手机管家的启动管理页：
 
-```text
+```
 private void goHuaweiSetting() {
     try {
         showActivity("com.huawei.systemmanager",
@@ -102,13 +102,13 @@ private void goHuaweiSetting() {
 }
 ```
 
-操作步骤：应用启动管理 -&gt; 关闭应用开关 -&gt; 打开允许自启动
+操作步骤：应用启动管理 -> 关闭应用开关 -> 打开允许自启动
 
 ### 小米
 
 厂商判断：
 
-```text
+```
 public static boolean isXiaomi() {
     return Build.BRAND != null && Build.BRAND.toLowerCase().equals("xiaomi");
 }
@@ -116,20 +116,20 @@ public static boolean isXiaomi() {
 
 跳转小米安全中心的自启动管理页面：
 
-```text
+```
 private void goXiaomiSetting() {
     showActivity("com.miui.securitycenter",
         "com.miui.permcenter.autostart.AutoStartManagementActivity");
 }
 ```
 
-操作步骤：授权管理 -&gt; 自启动管理 -&gt; 允许应用自启动
+操作步骤：授权管理 -> 自启动管理 -> 允许应用自启动
 
 ### OPPO
 
 厂商判断：
 
-```text
+```
 public static boolean isOPPO() {
     return Build.BRAND != null && Build.BRAND.toLowerCase().equals("oppo");
 }
@@ -138,7 +138,7 @@ public static boolean isOPPO() {
 
 跳转 OPPO 手机管家：
 
-```text
+```
 private void goOPPOSetting() {
     try {
         showActivity("com.coloros.phonemanager");
@@ -156,13 +156,13 @@ private void goOPPOSetting() {
 }
 ```
 
-操作步骤：权限隐私 -&gt; 自启动管理 -&gt; 允许应用自启动
+操作步骤：权限隐私 -> 自启动管理 -> 允许应用自启动
 
 ### VIVO
 
 厂商判断：
 
-```text
+```
 public static boolean isVIVO() {
     return Build.BRAND != null && Build.BRAND.toLowerCase().equals("vivo");
 }
@@ -170,19 +170,19 @@ public static boolean isVIVO() {
 
 跳转 VIVO 手机管家：
 
-```text
+```
 private void goVIVOSetting() {
     showActivity("com.iqoo.secure");
 }
 ```
 
-操作步骤：权限管理 -&gt; 自启动 -&gt; 允许应用自启动
+操作步骤：权限管理 -> 自启动 -> 允许应用自启动
 
 ### 魅族
 
 厂商判断：
 
-```text
+```
 public static boolean isMeizu() {
     return Build.BRAND != null && Build.BRAND.toLowerCase().equals("meizu");
 }
@@ -190,19 +190,19 @@ public static boolean isMeizu() {
 
 跳转魅族手机管家：
 
-```text
+```
 private void goMeizuSetting() {
     showActivity("com.meizu.safe");
 }
 ```
 
-操作步骤：权限管理 -&gt; 后台管理 -&gt; 点击应用 -&gt; 允许后台运行
+操作步骤：权限管理 -> 后台管理 -> 点击应用 -> 允许后台运行
 
 ### 三星
 
 厂商判断：
 
-```text
+```
 public static boolean isSamsung() {
     return Build.BRAND != null && Build.BRAND.toLowerCase().equals("samsung");
 }
@@ -211,7 +211,7 @@ public static boolean isSamsung() {
 
 跳转三星智能管理器：
 
-```text
+```
 private void goSamsungSetting() {
     try {
         showActivity("com.samsung.android.sm_cn");
@@ -221,13 +221,13 @@ private void goSamsungSetting() {
 }
 ```
 
-操作步骤：自动运行应用程序 -&gt; 打开应用开关 -&gt; 电池管理 -&gt; 未监视的应用程序 -&gt; 添加应用
+操作步骤：自动运行应用程序 -> 打开应用开关 -> 电池管理 -> 未监视的应用程序 -> 添加应用
 
 ### 乐视
 
 厂商判断：
 
-```text
+```
 public static boolean isLeTV() {
     return Build.BRAND != null && Build.BRAND.toLowerCase().equals("letv");
 }
@@ -235,20 +235,20 @@ public static boolean isLeTV() {
 
 跳转乐视手机管家：
 
-```text
+```
 private void goLetvSetting() {
     showActivity("com.letv.android.letvsafe", 
         "com.letv.android.letvsafe.AutobootManageActivity");
 }
 ```
 
-操作步骤：自启动管理 -&gt; 允许应用自启动
+操作步骤：自启动管理 -> 允许应用自启动
 
 ### 锤子
 
 厂商判断：
 
-```text
+```
 public static boolean isSmartisan() {
     return Build.BRAND != null && Build.BRAND.toLowerCase().equals("smartisan");
 }
@@ -256,11 +256,10 @@ public static boolean isSmartisan() {
 
 跳转手机管理：
 
-```text
+```
 private void goSmartisanSetting() {
     showActivity("com.smartisanos.security");
 }
 ```
 
-操作步骤：权限管理 -&gt; 自启动权限管理 -&gt; 点击应用 -&gt; 允许被系统启动
-
+操作步骤：权限管理 -> 自启动权限管理 -> 点击应用 -> 允许被系统启动

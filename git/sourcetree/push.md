@@ -4,7 +4,5 @@ description: 推送
 
 # Push
 
-![](../../.gitbook/assets/pi-zhu-20200723-165524.png)
-
-
+![](<../../.gitbook/assets/批注 2020-07-23 165524.png>)
 

@@ -8,12 +8,12 @@
 
 唯一让我失望的是GitHub for Desktop不带三方合并工具，你必须自己手动解决冲突才可以。
 
-– 免费  
-– 同时支持 Windows 和 Mac：对于需要经常在不同的操作系统间切换的开发人员来说非常方便。  
-– 漂亮的界面：作为每天盯着看的工具，颜值是非常重要的  
-– 支持Pull Request：直接从客户端提交PR，很方便  
-– Timeline 支持：直接在时间线上显示每次提交的时间点和大小  
-– 支持git LFS：存储大文件更加节省空间和高效  
+– 免费\
+– 同时支持 Windows 和 Mac：对于需要经常在不同的操作系统间切换的开发人员来说非常方便。\
+– 漂亮的界面：作为每天盯着看的工具，颜值是非常重要的\
+– 支持Pull Request：直接从客户端提交PR，很方便\
+– Timeline 支持：直接在时间线上显示每次提交的时间点和大小\
+– 支持git LFS：存储大文件更加节省空间和高效\
 – 不支持三方合并：需要借助第三方工具才行
 
 **Source Tree**
@@ -26,10 +26,10 @@ SourceTree是老牌的Git GUI管理工具了，也号称是最好用的Git GUI�
 
 在 Windows 环境下，SourceTree是多语言的，但是不知道为什么我的Mac版总是显示英文。
 
-– 免费  
-– 功能强大：无论你是新手还是重度用户，SourceTree 都会让你觉得很顺手。对于非常重度用户，Source Tree还支持自定义脚本的执行。  
-– 同时支持 Windows 和 Mac 操作系统  
-– 同时支持 Git 和 Mercurial 两种 VCS  
+– 免费\
+– 功能强大：无论你是新手还是重度用户，SourceTree 都会让你觉得很顺手。对于非常重度用户，Source Tree还支持自定义脚本的执行。\
+– 同时支持 Windows 和 Mac 操作系统\
+– 同时支持 Git 和 Mercurial 两种 VCS\
 – 内置GitHub, BitBucket 和 Stash 的支持：直接绑定帐号即可操作远程repo
 
 **TortoiseGit**
@@ -40,8 +40,7 @@ SourceTree是老牌的Git GUI管理工具了，也号称是最好用的Git GUI�
 
 小乌龟的文件管理器右键菜单的操作方式对于新手来说非常的容易上手，而且容易理解。
 
-– 免费  
-– 只支持Windows操作系统：与文件管理器的良好集成  
-– 中文界面  
+– 免费\
+– 只支持Windows操作系统：与文件管理器的良好集成\
+– 中文界面\
 – 与TortoiseSVN一脉相承的操作体验
-

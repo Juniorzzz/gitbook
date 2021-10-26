@@ -1,6 +1,6 @@
 # GitFlow
 
-![](../../.gitbook/assets/tu-pian-2.png)
+![](../../.gitbook/assets/图片2.png)
 
 
 
@@ -9,4 +9,3 @@
 3. Feature
 4. Release
 5. Hotfix
-

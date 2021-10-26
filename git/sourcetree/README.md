@@ -1,4 +1,3 @@
 # SourceTree
 
-![](../../.gitbook/assets/pi-zhu-20200723-164624.png)
-
+![](<../../.gitbook/assets/批注 2020-07-23 164624.png>)

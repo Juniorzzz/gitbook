@@ -6,12 +6,11 @@ description: >-
 
 # save
 
-Usage: docker save \[OPTIONS\]
+Usage: docker save \[OPTIONS]
 
-> -o, --output string Write to a file, instead of STDOUT
+> \-o, --output string Write to a file, instead of STDOUT
 
-```text
+```
 docker save -o [filename] [image name]
 docker save [image name] > [filename]
 ```
-

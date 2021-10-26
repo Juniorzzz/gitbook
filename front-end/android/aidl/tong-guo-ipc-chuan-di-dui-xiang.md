@@ -7,15 +7,15 @@
 1. 让您的类实现 [`Parcelable`](https://developer.android.com/reference/android/os/Parcelable?hl=zh-cn) 接口。
 2. 实现 [`writeToParcel`](https://developer.android.com/reference/android/os/Parcelable?hl=zh-cn#writeToParcel%28android.os.Parcel,%20int%29)，它会获取对象的当前状态并将其写入 [`Parcel`](https://developer.android.com/reference/android/os/Parcel?hl=zh-cn)。
 3. 为您的类添加 `CREATOR` 静态字段，该字段是实现 [`Parcelable.Creator`](https://developer.android.com/reference/android/os/Parcelable.Creator?hl=zh-cn) 接口的对象。
-4. 最后，创建声明 Parcelable 类的 `.aidl` 文件（遵照下文 `Rect.aidl` 文件所示步骤）。
+4.  最后，创建声明 Parcelable 类的 `.aidl` 文件（遵照下文 `Rect.aidl` 文件所示步骤）。
 
-   如果您使用的是自定义编译进程，_请勿_在您的构建中添加 `.aidl` 文件。此 `.aidl` 文件与 C 语言中的头文件类似，并未经过编译。
+    如果您使用的是自定义编译进程，_请勿_在您的构建中添加 `.aidl` 文件。此 `.aidl` 文件与 C 语言中的头文件类似，并未经过编译。
 
 AIDL 会在其生成的代码中使用这些方法和字段，以对您的对象进行编组和解编。
 
 例如，下方的 `Rect.aidl` 文件可创建 Parcelable 类型的 `Rect` 类：
 
-```text
+```
 package android.graphics;
 
 // Declare Rect so AIDL can find it and knows that it implements
@@ -27,7 +27,7 @@ parcelable Rect;
 
 {% tabs %}
 {% tab title="KOTLIN" %}
-```text
+```
 import android.os.Parcel
 import android.os.Parcelable
 
@@ -73,7 +73,7 @@ class Rect() : Parcelable {
 {% endtab %}
 
 {% tab title="JAVA" %}
-```text
+```
 import android.os.Parcel;
 import android.os.Parcelable;
 
@@ -125,4 +125,3 @@ public final class Rect implements Parcelable {
 {% hint style="info" %}
 **警告：**请勿忘记从其他进程中接收数据的安全问题。在本例中，`Rect` 从 `Parcel` 读取四个数字，但您需确保：无论调用方目的为何，这些数字均在可接受的值范围内。如需详细了解如何防止应用受到恶意软件侵害、保证应用安全，请参阅[安全与权限](https://developer.android.com/guide/topics/security/security?hl=zh-cn)。
 {% endhint %}
-

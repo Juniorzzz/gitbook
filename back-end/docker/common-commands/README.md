@@ -1,14 +1,24 @@
 # Common commands
 
-{% page-ref page="commit.md" %}
+{% content-ref url="commit.md" %}
+[commit.md](commit.md)
+{% endcontent-ref %}
 
-{% page-ref page="pull.md" %}
+{% content-ref url="pull.md" %}
+[pull.md](pull.md)
+{% endcontent-ref %}
 
-{% page-ref page="run.md" %}
+{% content-ref url="run.md" %}
+[run.md](run.md)
+{% endcontent-ref %}
 
-{% page-ref page="save.md" %}
+{% content-ref url="save.md" %}
+[save.md](save.md)
+{% endcontent-ref %}
 
-{% page-ref page="load.md" %}
+{% content-ref url="load.md" %}
+[load.md](load.md)
+{% endcontent-ref %}
 
 
 
@@ -58,10 +68,8 @@
 * [load](https://www.runoob.com/docker/docker-load-command.html)
 * [import](https://www.runoob.com/docker/docker-import-command.html)
 
-#### info\|version
+#### info|version
 
 * [info](https://www.runoob.com/docker/docker-info-command.html)
 * [version](https://www.runoob.com/docker/docker-version-command.html)
-
-
 

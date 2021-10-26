@@ -5,8 +5,10 @@
 1、减少进程数
 
 > 默认是被注释掉的，官方建议该值是CPU核心数加一，可以提高服务器的响应速度，如果内存只有4G，或者服务器上有其它业务，就不要改了，以免内存不足。另外，这个参数最小值是2，设为1，服务器可能会卡死。
+>
+>
 
-```text
+```
 unicorn['work_processes'] = 2
 ```
 
@@ -14,7 +16,7 @@ unicorn['work_processes'] = 2
 
 > 默认为256MB，可适当改小
 
-```text
+```
 postgresql['shared_buffers'] = "256MB"
 ```
 
@@ -22,7 +24,7 @@ postgresql['shared_buffers'] = "256MB"
 
 > 默认为8，可适当改小
 
-```text
+```
 postgresql['max_worker_processes'] = 8
 ```
 
@@ -30,7 +32,7 @@ postgresql['max_worker_processes'] = 8
 
 > 默认是25，可适当改小
 
-```text
+```
 sidekiq['concurrency'] = 25
 ```
 
@@ -38,7 +40,7 @@ sidekiq['concurrency'] = 25
 
 修改配置之后需要重新配置gitlab 并重启
 
-```text
+```
 gitlab-ctl reconfigure
 gitlab-ctl restart
 ```
@@ -47,7 +49,6 @@ gitlab-ctl restart
 
 > [https://docs.gitlab.com/ee/install/requirements.html](https://docs.gitlab.com/ee/install/requirements.html)
 
-![](../../.gitbook/assets/image%20%283%29.png)
+![](<../../.gitbook/assets/image (3).png>)
 
-![](../../.gitbook/assets/pi-zhu-20200715-095909.png)
-
+![](<../../.gitbook/assets/批注 2020-07-15 095909.png>)

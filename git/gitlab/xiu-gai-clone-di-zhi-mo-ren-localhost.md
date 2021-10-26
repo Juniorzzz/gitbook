@@ -2,7 +2,7 @@
 
 修改文件  /opt/gitlab/embedded/service/gitlab-rails/config/gitlab.yml
 
-```text
+```
 ## GitLab settings
   gitlab:
     ## Web server settings (note: host is the FQDN, do not include http://)
@@ -13,9 +13,8 @@
 
 修改保存之后需要重启gitlab， 执行命令
 
-```text
+```
 gitlab-ctl restart
 ```
 
 执行gitlab-ctl reconfigure命令， 此文件会被重置，需要重新配置
-
