@@ -130,6 +130,7 @@
       * [statistics](tools/jenkins/plugins/statistics.md)
   * [Windows](tools/windows/README.md)
     * [Win10 微软拼音添加小鹤双拼](tools/windows/win10-wei-ruan-pin-yin-tian-jia-xiao-he-shuang-pin.md)
+    * [FinalShell](tools/windows/finalshell.md)
 * [Live](live/README.md)
   * [LiveGO](live/livego.md)
   * [UnityLivePlugin](live/unityliveplugin.md)
