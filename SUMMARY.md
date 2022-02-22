@@ -129,6 +129,7 @@
       * [Dashboard View](tools/jenkins/plugins/dashboard-view.md)
       * [statistics](tools/jenkins/plugins/statistics.md)
   * [Windows](tools/windows/README.md)
+    * [Page 1](tools/windows/page-1.md)
     * [Microsoft Store Error Code: 0x80131500](tools/windows/microsoft-store-error-code-0x80131500.md)
     * [Win10 微软拼音添加小鹤双拼](tools/windows/win10-wei-ruan-pin-yin-tian-jia-xiao-he-shuang-pin.md)
     * [FinalShell](tools/windows/finalshell.md)
