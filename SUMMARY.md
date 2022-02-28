@@ -77,6 +77,7 @@
     * [Particle](front-end/unity/particle.md)
     * [Vector 向量](front-end/unity/vector-xiang-liang.md)
     * [QA](front-end/unity/qa/README.md)
+      * [Installed Build Tools revision xx.0.0 is corrupted](front-end/unity/qa/installed-build-tools-revision-xx.0.0-is-corrupted.md)
       * [GC产生的原因，如何避免](front-end/unity/qa/gc-chan-sheng-de-yuan-yin-ru-he-bi-mian.md)
       * [Drawcall](front-end/unity/qa/drawcall/README.md)
         * [定义](front-end/unity/qa/drawcall/ding-yi.md)
