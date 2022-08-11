@@ -61,6 +61,7 @@
     * [创建不显示的Activity](front-end/android/chuang-jian-bu-xian-shi-de-activity.md)
   * [Unity](front-end/unity/README.md)
     * [Android](front-end/unity/android/README.md)
+      * [Configure NDK](front-end/unity/android/configure-ndk.md)
       * [Error](front-end/unity/android/error/README.md)
         * [SDK Tools version 0.0.0 ＜ 26.1.1](front-end/unity/android/error/sdk-tools-version-0.0.0-26.1.1.md)
       * [Android -> Unity](front-end/unity/android/android-greater-than-unity.md)
