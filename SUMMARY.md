@@ -142,4 +142,6 @@
   * [Ubuntu](system/ubuntu/README.md)
     * [apt-get](system/ubuntu/apt-get/README.md)
       * [Depend](system/ubuntu/apt-get/depend.md)
+  * [Arch](system/arch.md)
+* [GitKraken](gitkraken.md)
 * [Open Source License](open-source-license.md)
