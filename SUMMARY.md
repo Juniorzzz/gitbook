@@ -143,6 +143,7 @@
     * [apt-get](system/ubuntu/apt-get/README.md)
       * [Depend](system/ubuntu/apt-get/depend.md)
   * [Arch](system/arch.md)
+    * [zsh 文件夹颜色设置](system/arch/zsh-wen-jian-jia-yan-se-she-zhi.md)
     * [Blank Android Studio window in DWM](system/arch/blank-android-studio-window-in-dwm.md)
     * [GitKraken](gitkraken.md)
 * [Open Source License](open-source-license.md)
