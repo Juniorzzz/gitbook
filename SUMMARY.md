@@ -60,6 +60,8 @@
       * [Android 后台运行白名单，优雅实现保活](front-end/android/bao-huo/android-hou-tai-yun-hang-bai-ming-dan-you-ya-shi-xian-bao-huo.md)
     * [创建不显示的Activity](front-end/android/chuang-jian-bu-xian-shi-de-activity.md)
   * [Unity](front-end/unity/README.md)
+    * [Install](front-end/unity/install/README.md)
+      * [如何使用Unity Hub下载某一版本Unity](front-end/unity/install/ru-he-shi-yong-unity-hub-xia-zai-mou-yi-ban-ben-unity.md)
     * [Android](front-end/unity/android/README.md)
       * [Configure NDK](front-end/unity/android/configure-ndk.md)
       * [Error](front-end/unity/android/error/README.md)
