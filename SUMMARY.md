@@ -145,6 +145,7 @@
     * [apt-get](system/ubuntu/apt-get/README.md)
       * [Depend](system/ubuntu/apt-get/depend.md)
   * [Arch](system/arch.md)
+    * [双系统时间问题](system/arch/shuang-xi-tong-shi-jian-wen-ti.md)
     * [The disk contains an unclean file system](system/arch/the-disk-contains-an-unclean-file-system.md)
     * [mount disk on startup](system/arch/mount-disk-on-startup.md)
     * [修改ranger默认编辑器](system/arch/xiu-gai-ranger-mo-ren-bian-ji-qi.md)
