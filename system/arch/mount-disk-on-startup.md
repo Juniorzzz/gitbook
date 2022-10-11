@@ -3,7 +3,7 @@
 check disk uuid&#x20;
 
 ```
-lsblk -o +UUID, fstype
+lsblk -o +UUID,fstype
 ```
 
 Editor the file&#x20;
